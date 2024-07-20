@@ -1,1 +1,4 @@
-factorynails.wuaze.com
+Type: CNAME
+Name: factorynails
+Value: antonelladomenez.github.io
+TTL: 3600
