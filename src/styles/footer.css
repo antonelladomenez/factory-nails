@@ -1,0 +1,73 @@
+/* styles/footer.css */
+.footer {
+    background-color: #ABB7A5;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-menu {
+    list-style: none;
+    padding: 0;
+
+}
+
+.footer-menu li {
+    margin: 10px 0;
+}
+
+.footer-menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-menu li a:hover {
+    text-decoration: underline;
+}
+
+.footer-logo h2 {
+    font-family: 'TAN Pearl', serif;
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.footer-logo h3 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    font-size: 1em;
+    letter-spacing: 0.5em;
+}
+
+.footer-contact p {
+    margin: 10px 0;
+}
+
+.footer-social a {
+    color: white;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.footer-section {
+    text-align: left;
+}
+
+@media (max-width: 767px) {
+
+    .footer-section,
+    .footer-logo,
+    .footer-contact {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+/* Estilo específico para el enlace de WhatsApp */
+.whatsapp-link {
+    color: white;
+    /* Cambia a tu color preferido */
+    text-decoration: none;
+}
+
+.whatsapp-link:hover {
+    text-decoration: underline;
+}
