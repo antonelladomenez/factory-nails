@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -73,3 +74,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # factory-nails
 Factory Nails - salon de uñas ubicado en Argentina
 >>>>>>> cbdca3b7ac0c6e6d01ff1fec9d5e28cec18565c7
+=======
+# factory-nails
+Factory Nails - salon de uñas ubicado en Argentina
+>>>>>>> 509274374d10694d3c35d3bdf56c464318cb0d56
