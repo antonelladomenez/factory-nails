@@ -18,7 +18,6 @@ const Footer = () => {
               <li>
                 <HashLink to="/#servicios">Servicios</HashLink>
               </li>
-
               <li>
                 <a href="/sobre-mi">Sobre mi</a>
               </li>
@@ -52,6 +51,33 @@ const Footer = () => {
                 <i className="fab fa-instagram"></i>
               </a>
             </div>
+          </Col>
+        </Row>
+        <hr
+          style={{
+            marginBottom: "0px",
+          }}
+        />
+        <Row className="justify-content-center">
+          <Col xs={12} className="text-center  my-1">
+            <p
+              style={{
+                marginBottom: "0px",
+                fontSize: "12px",
+                marginTop: "10PX",
+              }}
+            >
+              &copy; {new Date().getFullYear()} Factory Nails. Todos los
+              derechos reservados. | Diseñado y desarrollado por{" "}
+              <a
+                href="https://www.fancyitsolutions.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color:"white"}}
+              >
+                Fancy IT Solutions
+              </a>
+            </p>
           </Col>
         </Row>
       </Container>
