@@ -4,8 +4,7 @@ import "../styles/footer.css";
 import { HashLink } from "react-router-hash-link";
 
 const Footer = () => {
-  const whatsappNumber = "+5493624204967"; // Reemplaza con el número de WhatsApp correcto
-
+  const whatsappNumber = "+5493624204967"; 
   return (
     <footer className="footer">
       <Container fluid>

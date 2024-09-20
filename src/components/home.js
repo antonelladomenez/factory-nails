@@ -16,10 +16,16 @@ import service2 from "../images/service2.png";
 import service3 from "../images/service3.png";
 import service4 from "../images/service4.png";
 import service5 from "../images/service1.png";
-import ContactForm from "./ContactForm";
+// import ContactForm from "./ContactForm";
 import "../styles/home.css";
 
 const Home = () => {
+  const { ref: titleRef, inView: titleInView } = useInView({
+    triggerOnce: true,
+    threshold: 0.1,
+  });
+  const whatsappNumber = "+5493624204967";
+
   const imagesColumn1 = [img1, img2, img3];
   const imagesColumn2 = [img4, img5, img6];
   const imagesColumn3 = [img7, img8, img9];
@@ -347,7 +353,33 @@ const Home = () => {
         </Col>
       </Row>
       <div id="contacto">
-        <ContactForm />
+        {/* <ContactForm /> */}
+        <Row className="text-center my-5">
+          <Col>
+            <h2
+              ref={titleRef}
+              className={`formTittle my-5 ${titleInView ? "slide-up" : ""}`}
+            >
+              RESERVA TU TURNO AHORA
+            </h2>
+            <h2
+              ref={titleRef}
+              className={`formTittle my-5 ${titleInView ? "slide-up" : ""}`}
+            >
+              Comunicate directamente a mi WhatsApp:
+            </h2>
+            <p>
+              <a
+                href={`https://wa.me/${whatsappNumber}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="whatsapp-link-home"
+              >
+                <i className="fab fa-whatsapp"></i> +54 9 362 420-4967
+              </a>
+            </p>
+          </Col>
+        </Row>
       </div>
     </>
   );

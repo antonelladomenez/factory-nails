@@ -138,11 +138,24 @@ button.btn-outline-success:hover {
   text-align: center;
   width: 100%;
 }
-.textoMensaje h2 {
+.formTittle {
   color: #ABB7A5;
   font-size: 25px;
   font-family: Oranienbaum;
   letter-spacing: 10px;
+  margin-bottom: 40px;
+}
+/* Estilo específico para el enlace de WhatsApp */
+.whatsapp-link-home {
+  font-size: 20px;
+
+  color: #ABB7A5;
+  /* Cambia a tu color preferido */
+  text-decoration: none;
+}
+
+.whatsapp-link-home:hover {
+  text-decoration: underline;
 }
 .textoMensaje p {
   color: #000000;
